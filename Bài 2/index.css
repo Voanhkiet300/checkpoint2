@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    height: 100%;
+}
+
+body {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: aqua;
+}
