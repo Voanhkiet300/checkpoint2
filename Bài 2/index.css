@@ -2,15 +2,57 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-img {
-    height: 100%;
+    font-size: large;
 }
 
 body {
-    align-items: center;
-    justify-content: center;
     display: flex;
-    background-color: aqua;
+    flex-direction: column;
+    background-image: url(pokemon.png);
+    background-repeat: no-repeat;
+    background-size: 1010px;
+}
+input {
+    width: 250px;
+    height: 20px;
+    margin-left: 640px;
+    margin-top: 233px;
+    background-color: transparent;
+    border: 0;
+    color: #fff;
+}
+input:focus {
+    outline: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 636px;
+    margin-top: 81px;
+    color: #fff;
+    width: 280px;
+    height: 300px;
+}
+
+.box1 {
+    display: flex;
+    height: 50px;
+}
+.box2 {
+    display: flex;
+    margin-top: 61px;
+    height: 50px;
+}
+.box3 {
+    display: flex;
+    margin-top: 62px;
+
+}
+
+
+.content1 {
+    width: 130px;
+    height: 50px;
 }
